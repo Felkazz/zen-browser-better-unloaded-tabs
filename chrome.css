@@ -1,4 +1,7 @@
+.tabbrowser-tab[pending="true"] .tab-content {
+  filter: grayscale(1);
+}
+
 .tabbrowser-tab[pending="true"] {
-    filter: grayscale(1);
-    opacity: 0.5;
+  opacity: 0.5;
 }
