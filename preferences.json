@@ -1,0 +1,40 @@
+[
+    {
+        "property": "mod.betterunloadedtabs.grayscale",
+        "label": "Grayscale Unloaded Tabs",
+        "type": "checkbox",
+        "defaultValue": true
+    },
+    {
+        "property": "mod.betterunloadedtabs.opacity",
+        "label": "Opacity of Unloaded Tabs",
+        "type": "dropdown",
+        "options": [
+            {
+                "label": "100%",
+                "value": "1.0"
+            },
+            {
+                "label": "90%",
+                "value": "0.9"
+            },
+            {
+                "label": "80%",
+                "value": "0.8"
+            },
+            {
+                "label": "70%",
+                "value": "0.7"
+            },
+            {
+                "label": "60%",
+                "value": "0.6"
+            },
+            {
+                "label": "50%",
+                "value": "0.5"
+            }
+        ],
+        "defaultValue": "0.5"
+    }
+]
