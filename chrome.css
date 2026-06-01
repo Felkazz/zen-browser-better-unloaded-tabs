@@ -1,4 +1,29 @@
 .tabbrowser-tab[pending="true"] {
-    filter: grayscale(1);
-    opacity: 0.5;
+    @media (-moz-pref("mod.betterunloadedtabs.grayscale")) {
+        filter: grayscale(1);
+    }
+
+    @media (-moz-pref("mod.betterunloadedtabs.opacity", "0.5")) {
+        opacity: 0.5;
+    }
+
+    @media (-moz-pref("mod.betterunloadedtabs.opacity", "0.6")) {
+        opacity: 0.6;
+    }
+
+    @media (-moz-pref("mod.betterunloadedtabs.opacity", "0.7")) {
+        opacity: 0.7;
+    }
+
+    @media (-moz-pref("mod.betterunloadedtabs.opacity", "0.8")) {
+        opacity: 0.8;
+    }
+
+    @media (-moz-pref("mod.betterunloadedtabs.opacity", "0.9")) {
+        opacity: 0.9;
+    }
+
+    @media (-moz-pref("mod.betterunloadedtabs.opacity", "1.0")) {
+        opacity: 1.0;
+    }
 }
