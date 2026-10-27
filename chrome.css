@@ -1,4 +1,15 @@
+:root {
+    --but-opacity: var(--mod-better_unloaded_tabs-opacity, 0.5);
+    --but-filter: none;
+}
+
+@media (-moz-pref("mod.better_unloaded_tabs.grayscale")) {
+    :root {
+        --but-filter: grayscale(var(--mod-better_unloaded_tabs-grayscale_strength, 1));
+    }
+}
+
 .tabbrowser-tab[pending="true"] {
-    filter: grayscale(1);
-    opacity: 0.5;
+    filter: var(--but-filter);
+    opacity: var(--but-opacity);
 }

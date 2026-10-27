@@ -1,0 +1,22 @@
+[
+    {
+        "property": "mod.better_unloaded_tabs.opacity",
+        "label": "Opacity of unloaded tabs (0.0 - 1.0)",
+        "type": "string",
+        "defaultValue": "0.5",
+        "placeholder": "0.0 - 1.0, e.g. 0.5"
+    },
+    {
+        "property": "mod.better_unloaded_tabs.grayscale",
+        "label": "Grayscale unloaded tabs",
+        "type": "checkbox",
+        "defaultValue": true
+    },
+    {
+        "property": "mod.better_unloaded_tabs.grayscale_strength",
+        "label": "Grayscale strength (0.0 - 1.0)",
+        "type": "string",
+        "defaultValue": "1",
+        "placeholder": "0.0 - 1.0, e.g. 1"
+    }
+]
